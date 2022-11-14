@@ -1,0 +1,17 @@
+
+/* podioreipro-apps-all */
+
+
+.podioreipro-apps-all{
+    padding: 90px 0 60px 0;
+    color: white;
+}
+.podioreipro-apps-all .apps-card {
+    width: 500px;
+    background-color: #1f1f1f;
+   
+}
+.podioreipro-apps-all img {
+    height: 72px;
+    width: 72px;
+}

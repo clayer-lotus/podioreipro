@@ -1,1 +1,117 @@
 /* You can add global styles to this file, and also import other style files */
+@import url('https://fonts.googleapis.com/css2?family=Spectral:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@500&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Oswald', sans-serif;
+ 
+}
+
+html {
+  scroll-behavior: smooth;
+
+}
+
+body {
+  --navbar-scroll: transparent;
+  --navbar-scroll-text: white;
+  --navbar-scroll-shadow: none;
+  --navlink-scroll-text: #ffffffe7;
+}
+
+.navbar {
+  background-color: var(--navbar-scroll);
+  transition: background-color 1s ease;
+  color: var(--navbar-scroll-text);
+  -webkit-box-shadow: var(--navbar-scroll-shadow);
+  box-shadow: var(--navbar-scroll-shadow);
+}
+
+.nav-link{
+  color: var(--navlink-scroll-text);
+}
+.navbar-toggler{
+  color: var(--navlink-scroll-text);
+}
+.btn {
+  border-radius: 30px !important;
+  color: #fff !important;
+  font-size: 18px !important;
+  font-weight: 500 !important;
+  line-height: 48px !important;
+  padding: 0 40px !important;
+  text-align: center !important;
+  transition: all .3s ease-in-out !important;
+  text-transform: uppercase;
+}
+
+.btn-vary1 {
+  background: linear-gradient(to bottom, #00addd 0%, #5c58a6 100%);
+}
+
+.btn-vary1:hover {
+  background: linear-gradient(to right, #00adddcb 0%, #5c58a6be 100%);
+
+}
+
+.btn-vary2 {
+  border-color: #fff;
+  border-width: 2px;
+  background: linear-gradient(to right, #e16521, #ffc30edf);
+}
+
+.btn-vary2:hover {
+  background: linear-gradient(to right, #e16421d8, #ffc30edf);
+}
+
+.header-section {
+  margin-bottom: 50px;
+}
+
+.header-section .title {
+  margin-bottom: 18px;
+  font-size: 58px;
+  text-transform: uppercase;
+  display: block;
+  -webkit-text-fill-color: transparent;
+  -webkit-text-stroke-width: 2px;
+  -webkit-text-stroke-color: #00addd;
+}
+
+.header-section .small-title {
+  font-size: 22px;
+  font-family: 'Oswald', sans-serif;
+  /* font-family: "Nunito Sans", sans-serif; */
+  color: #00addd;
+  font-weight: 400;
+  line-height: 24px;
+  margin: 0px 0px 15px;
+  text-transform: capitalize;
+}
+
+
+/* SCROLL BAR */
+
+/* width */
+::-webkit-scrollbar {
+  width: 5px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+  box-shadow: inset 0 0 5px grey;
+  border-radius: 5px;
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: linear-gradient(to bottom, #00addd 0%, #5c58a6 100%);
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+  background: linear-gradient(to bottom, #00adddb2 0%, #5c58a6ae 100%);
+}
