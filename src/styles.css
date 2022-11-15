@@ -127,3 +127,8 @@ body {
       opacity: 0;
   }
 }
+
+code{
+  color: #f963ae !important;
+  font-weight: bold;
+}
