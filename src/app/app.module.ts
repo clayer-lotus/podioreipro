@@ -10,6 +10,10 @@ import { WhatSystemOffersComponent } from './components/what-system-offers/what-
 import { WhyChooseUsComponent } from './components/why-choose-us/why-choose-us.component';
 import { PodioreiproAllCrmFeaturesComponent } from './components/podioreipro-all-crm-features/podioreipro-all-crm-features.component';
 import { PageIntroComponent } from './components/page-intro/page-intro.component';
+import { WhatAreYouWaitingComponent } from './components/what-are-you-waiting/what-are-you-waiting.component';
+import { IntegrationComponent } from './components/integration/integration.component';
+import { PricingComponent } from './components/pricing/pricing.component';
+import { FooterComponent } from './components/footer/footer.component';
 
 @NgModule({
   declarations: [
@@ -20,7 +24,11 @@ import { PageIntroComponent } from './components/page-intro/page-intro.component
     WhatSystemOffersComponent,
     WhyChooseUsComponent,
     PodioreiproAllCrmFeaturesComponent,
-    PageIntroComponent
+    PageIntroComponent,
+    WhatAreYouWaitingComponent,
+    IntegrationComponent,
+    PricingComponent,
+    FooterComponent
   ],
   imports: [
     BrowserModule,

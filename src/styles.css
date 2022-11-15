@@ -115,3 +115,15 @@ body {
 ::-webkit-scrollbar-thumb:hover {
   background: linear-gradient(to bottom, #00adddb2 0%, #5c58a6ae 100%);
 }
+
+
+  
+.blink {
+  animation: blinker 1.5s linear infinite;
+  
+}
+@keyframes blinker {
+  50% {
+      opacity: 0;
+  }
+}
