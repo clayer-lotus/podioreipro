@@ -37,7 +37,7 @@
     font-weight: normal;
     letter-spacing: 1px;
     font-weight: 900;
-    font-size: 58px;
+    font-size: 56px;
 }
 
 .home .overlay-text h1 span {
@@ -57,11 +57,23 @@
     position: relative;
     line-height: normal;
     letter-spacing:1px;
+   
 }
 
 @media (max-width: 480px) {
     .home .overlay-text h1 {
         font-size: 35px;
+    }
+    .home .overlay-text .subheading {
+        font-size: 20px;
+    }
+}
+@media (max-width: 320px) {
+    .home .overlay-text h1 {
+        font-size: 25px;
+    }
+    .home .overlay-text .subheading {
+        font-size: 17px;
     }
 }
 
