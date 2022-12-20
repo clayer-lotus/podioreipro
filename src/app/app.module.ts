@@ -14,6 +14,7 @@ import { WhatAreYouWaitingComponent } from './components/what-are-you-waiting/wh
 import { IntegrationComponent } from './components/integration/integration.component';
 import { PricingComponent } from './components/pricing/pricing.component';
 import { FooterComponent } from './components/footer/footer.component';
+import { OfferComponent } from './components/offer/offer.component';
 
 @NgModule({
   declarations: [
@@ -28,7 +29,8 @@ import { FooterComponent } from './components/footer/footer.component';
     WhatAreYouWaitingComponent,
     IntegrationComponent,
     PricingComponent,
-    FooterComponent
+    FooterComponent,
+    OfferComponent
   ],
   imports: [
     BrowserModule,
